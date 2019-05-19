@@ -21,6 +21,7 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().println("当前时间：" + new SimpleDateFormat("yyyy-MM-dd HH:mm:sss").format(new Date()));
         System.out.println("世界你好！");
+        System.out.println("Hello Word!");
     }
 
     @Override
